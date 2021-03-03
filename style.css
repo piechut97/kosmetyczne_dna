@@ -1,0 +1,76 @@
+/*
+Theme Name: OkiemChemika
+Theme URI: 
+Agata Owczarek Kosmetyki Okiem Chemika
+Author: Jakub Owczarek and Marcin Piechut
+Description: Motyw stworzony specjalnie na potrzeby prowadzenie bloga kosmetycznedna.pl
+Version: 1.0
+*/
+body{
+  font-family: "Quicksand"!important;
+  overflow-x: hidden!important;
+  width: 100%;
+
+}
+.container{
+  width: 100%;
+}
+.margin_bott{
+  margin-bottom: 64px;
+}
+@media (min-width: 768px){
+  .margin_bott{
+    margin-bottom: 32px;
+  }
+}
+
+.landing{
+  width: 100%;
+
+}
+.faceImg{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 2;
+  cursor: pointer;
+}
+.modal-dialog{
+  max-width: 1000px;
+}
+.footer{
+  width: 100vw;
+  height: 50px;
+  background-color: lightgray;
+  overflow: hidden;
+}
+.footer p{
+  text-align: center;
+  margin: 13px 0 13px 0;
+}
+
+#ig-1 {
+  border: 1px solid #cccccc;
+  display:block;
+  height: 260px;
+  }
+
+.su-post-thumbnail {
+  width: 345px !important; 
+  height: 345px !important;
+}
+.su-post-thumbnail img{
+  max-width: 345px !important;
+  max-height: 345px !important;
+}
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1000px;
+  }
+}
+a{
+  color: black !important;
+}
